@@ -19,3 +19,20 @@
   transform: translateX(-50%);
   color: white;
 }
+.center-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: white;
+  font-size: 24px;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.center-button:hover {
+  background-color: #45a049;
+}
